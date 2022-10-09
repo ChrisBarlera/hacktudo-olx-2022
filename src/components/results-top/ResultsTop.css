@@ -1,0 +1,27 @@
+#mapaBt {
+    border: 1px solid #d8d8d8;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#salvarBt {
+    border: 1px solid #d8d8d8;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#results-header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+#results-header > div > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

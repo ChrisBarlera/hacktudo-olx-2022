@@ -1,0 +1,60 @@
+#anuncioContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    box-shadow: 2px 2px 5px #dbdbdb;
+    cursor: pointer;
+}
+
+#anuncioContainer > img {
+    height: 100%;
+}
+
+#topDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#iconsDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#iconsDiv > img {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.fav-icon {
+    opacity: 100%;
+}
+
+
+#botDiv {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+}
+a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: #ff6913;
+    font-weight: 700;
+}
+
+#msgButton {
+    background-color: #ff6913;
+    color: white;
+}
+
+
+
+
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,14 @@
+.filtros-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f5f6f7;
+    border-radius: 12px;
+}
+
+.filtro-nav-item {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px
+}

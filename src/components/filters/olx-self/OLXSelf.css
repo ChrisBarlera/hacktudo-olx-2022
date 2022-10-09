@@ -1,0 +1,17 @@
+#olx-self {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#olx-self > div > img {
+    width: 30%;
+    height: auto;
+}
+
+#olx-self-desc {
+    color: white;
+    background-color: #6e0ad6;
+    padding: 20px;
+}
