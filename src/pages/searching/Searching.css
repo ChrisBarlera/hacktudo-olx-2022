@@ -1,10 +1,9 @@
-.App{
+.SearchingMain{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 
 .results {
   padding: 20px;

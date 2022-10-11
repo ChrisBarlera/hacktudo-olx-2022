@@ -2,6 +2,7 @@ import './Header.css';
 
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import {Select, InputLabel, FormControl, MenuItem} from '@mui/material';
+import { Link } from 'react-router-dom';
 
 
 
@@ -33,7 +34,7 @@ function Header() {
         <li>Financiamento</li>
         <li>Central de ajuda</li>
         <li><button id="anunciarBt">Anunciar</button></li>
-        <li><button id="entrarBt"><AccountCircleOutlinedIcon/>Entrar</button></li>
+        <li><button id="entrarBt"><AccountCircleOutlinedIcon/><Link to='/cadastro'>Entrar</Link></button></li>
       </nav>
     </header>
   );

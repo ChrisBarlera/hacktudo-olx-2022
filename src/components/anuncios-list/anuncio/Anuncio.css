@@ -39,7 +39,8 @@
     justify-content: flex-end;
     align-items: center;    
 }
-a {
+
+#telefone {
     margin-right: 5px;
     text-decoration: none;
     color: #ff6913;
@@ -49,12 +50,4 @@ a {
 #msgButton {
     background-color: #ff6913;
     color: white;
-}
-
-
-
-
-
-.hidden {
-    display: none;
 }

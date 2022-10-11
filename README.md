@@ -2,7 +2,7 @@
 Projeto desenvolvido pela equipe Inimigos da Computação como parte do desafio proposto pelo Hacktudo OLX 2022.
 
 ## Requisitos
-- NodeJS e NPM
+- NPM
 - Conexão à internet
 - Git (opcional)
 

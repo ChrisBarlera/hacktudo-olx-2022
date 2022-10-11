@@ -1,26 +1,7 @@
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 7vh;
-}
-
 .header-navbar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-li, button {
-    cursor: pointer;
-}
-
-button {
-    padding: 10px;
-    border: 0;
-    border-radius: 12px;
-    font-weight: 700;
 }
 
 #anunciarBt {
@@ -32,6 +13,9 @@ button {
 
 #entrarBt {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    width: 100px;
+    height: 50px;
+    cursor: default;
 }

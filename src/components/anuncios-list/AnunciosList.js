@@ -1,4 +1,3 @@
-import "./AnunciosList.css";
 import Anuncio from "./anuncio/Anuncio";
 
 function AnunciosList() {

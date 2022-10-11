@@ -19,7 +19,7 @@ function Anuncio({preco, descricao, endereco}) {
         <p>{descricao}</p>
         <p>{endereco}</p>
         <div id="botDiv">
-          <a href="./">Telefone</a>
+          <p id="telefone">Telefone</p>
           <button id='msgButton'>Mensagem</button>
         </div>
       </div>
