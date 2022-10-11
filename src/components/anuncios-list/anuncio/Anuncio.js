@@ -1,7 +1,7 @@
 import "./Anuncio.css"
 
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import checkedIcon from "./checked.png";
+import checkedIcon from "../../../res/checked.png";
 
 function Anuncio({preco, descricao, endereco}) {
   return (

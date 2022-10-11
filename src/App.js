@@ -12,7 +12,8 @@
 // import AnunciosList from './components/anuncios-list/AnunciosList';
 
 import { Route, Routes } from 'react-router-dom';
-import CadastroOLXSelf from './pages/cadastro-olx-self/CadastroOLXSelf';
+import Cadastro1 from './pages/cadastro-olx-self/cadastro1/Cadastro1';
+import Cadastro2 from './pages/cadastro-olx-self/cadastro2/Cadastro2';
 import Searching from './pages/searching/Searching';
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
     // </div>
     <Routes>
       <Route path='/' element={<Searching/>}/>
-      <Route path='/cadastro' element={<CadastroOLXSelf/>}/>
+      <Route path='/cadastro/1' element={<Cadastro1/>}/>
+      <Route path='/cadastro/2' element={<Cadastro2/>}/>
     </Routes>
   );
 }
