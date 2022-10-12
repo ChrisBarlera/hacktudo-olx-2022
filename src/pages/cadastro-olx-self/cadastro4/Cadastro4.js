@@ -1,7 +1,7 @@
-import logo from '../../../res/OLXSelf_logo.png';
+import logo from '../../../assets/OLXSelf_logo.png';
 import "./Cadastro4.css";
 import { Link } from 'react-router-dom';
-import checked from '../../../res/checked.png';
+import checked from '../../../assets/checked.png';
 
 
 import CadastroTop from "../../../components/cadastro-top/CadastroTop";
