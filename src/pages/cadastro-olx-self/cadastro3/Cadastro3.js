@@ -1,4 +1,4 @@
-import logo from '../../../res/OLXSelf_logo.png';
+import logo from '../../../assets/OLXSelf_logo.png';
 import "./Cadastro3.css";
 import { Link } from 'react-router-dom';
 
