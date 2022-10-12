@@ -1,0 +1,36 @@
+.grid2 {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cadastroThings {
+    padding: 50px;
+}
+.rightDiv-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F3FF;
+}
+
+#rightImg {
+    width: 30vw;
+    height: auto;
+    background-color: white;
+}
+
+.img-checked {
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.identificacao {
+    padding-bottom: 10%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
