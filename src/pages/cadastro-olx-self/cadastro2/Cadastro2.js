@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Cadastro2.css";
-import logo from '../../../res/OLXSelf_logo.png';
+import logo from '../../../assets/OLXSelf_logo.png';
 
 
 import CadastroTop from "../../../components/cadastro-top/CadastroTop";

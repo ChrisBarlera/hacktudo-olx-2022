@@ -1,5 +1,5 @@
 import './OLXSelf.css';
-import logo from '../../../res/OLXSelf_logo.png';
+import logo from '../../../assets/OLXSelf_logo.png';
 
 import { useState } from 'react';
 import { Switch } from '@mui/material';
