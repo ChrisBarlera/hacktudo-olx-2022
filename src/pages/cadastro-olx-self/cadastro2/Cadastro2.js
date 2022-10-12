@@ -19,7 +19,7 @@ function Cadastro1() {
         <img src={logo} alt="olx self logo" width="300px"/>
         <DocsComponent texto="Frente documento"/>
         {/* <DocsComponent texto="Verso documento"/> */}
-        <AvancarCadastro texto="Enviar" para="/cadastro/2"/>
+        <AvancarCadastro texto="Enviar" para="/cadastro/3"/>
       </div>
       <div className="rightDiv-cadastro">
         <Link to="/cadastro/1">Cadastro 1</Link>

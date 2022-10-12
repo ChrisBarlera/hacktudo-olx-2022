@@ -14,6 +14,7 @@
 import { Route, Routes } from 'react-router-dom';
 import Cadastro1 from './pages/cadastro-olx-self/cadastro1/Cadastro1';
 import Cadastro2 from './pages/cadastro-olx-self/cadastro2/Cadastro2';
+import Cadastro3 from './pages/cadastro-olx-self/cadastro3/Cadastro3';
 import Searching from './pages/searching/Searching';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <Route path='/' element={<Searching/>}/>
       <Route path='/cadastro/1' element={<Cadastro1/>}/>
       <Route path='/cadastro/2' element={<Cadastro2/>}/>
+      <Route path='/cadastro/3' element={<Cadastro3/>}/>
     </Routes>
   );
 }
