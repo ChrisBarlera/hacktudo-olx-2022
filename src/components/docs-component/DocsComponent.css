@@ -1,0 +1,22 @@
+.docsComponent {
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 12px;
+    box-shadow: inset 0px 5px 5px #cecece;
+
+
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.docsComponent > p {
+    padding-top: 20px;
+}
+
+.someclass {
+    width: 48px;
+    height: 48px;
+}

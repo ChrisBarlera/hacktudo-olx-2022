@@ -5,6 +5,7 @@ import logo from '../../../res/OLXSelf_logo.png';
 
 import CadastroTop from "../../../components/cadastro-top/CadastroTop";
 import AvancarCadastro from "../../../components/bt-avancar-cadastro/AvancarCadastro"
+import DocsComponent from "../../../components/docs-component/DocsComponent";
 
 
 function Cadastro1() {
@@ -15,7 +16,9 @@ function Cadastro1() {
           titulo="Validação de Identificação"
           desc="Para garantir mais segurança a plataforma, precisamos verificar sua identidade"
         />
-        <img src={logo} alt="olx self logo" width="300px" />
+        <img src={logo} alt="olx self logo" width="300px"/>
+        <DocsComponent texto="Frente documento"/>
+        {/* <DocsComponent texto="Verso documento"/> */}
         <AvancarCadastro texto="Enviar" para="/cadastro/2"/>
       </div>
       <div className="rightDiv-cadastro">
