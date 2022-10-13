@@ -1,5 +1,5 @@
 # OLX Self
-Projeto desenvolvido pela equipe Inimigos da Computação como parte do desafio proposto pelo Hacktudo OLX 2022.
+Projeto desenvolvido pela equipe Inimigos da Computação ([Christian](https://github.com/chrisbarlera), [Henrique](https://github.com/Henrique-Jost), [Isabella](https://github.com/isaberamos) e [Lucas](https://github.com/lucas-gitirana)) como parte do desafio proposto pelo Hacktudo OLX 2022.
 
 ## Requisitos
 - NPM
