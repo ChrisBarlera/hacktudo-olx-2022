@@ -1,3 +1,9 @@
+.docsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .docsComponent {
     width: 200px;
     height: 200px;

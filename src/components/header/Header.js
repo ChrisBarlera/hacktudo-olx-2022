@@ -34,7 +34,15 @@ function Header() {
         <li>Financiamento</li>
         <li>Central de ajuda</li>
         <li><button id="anunciarBt">Anunciar</button></li>
-        <li><button id="entrarBt"><AccountCircleOutlinedIcon/><Link to='/cadastro/1'>Entrar</Link></button></li>
+        <li>
+          <Link to="/cadastro/1">
+            <button id="entrarBt">
+              <AccountCircleOutlinedIcon/>
+              Entrar
+            </button>
+          </Link>
+        </li>
+        {/* <li><button id="entrarBt"><AccountCircleOutlinedIcon/><Link to='/cadastro/1'>Entrar</Link></button></li> */}
       </nav>
     </header>
   );

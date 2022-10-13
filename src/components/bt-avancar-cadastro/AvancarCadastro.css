@@ -2,11 +2,7 @@
     width: 100px;
     height: 50px;
     color: white;
+    font-family: 'Poppins', sans-serif;
     background-color: #6e0ad6;
     box-shadow: 5px 5px 10px #dbdbdb;
-}
-
-.cadastroLink {
-    color: white;
-    font-family: 'Poppins', sans-serif;
 }
