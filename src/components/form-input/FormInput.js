@@ -1,10 +1,11 @@
 import "./FormInput.css";
 
-function FormInput({ texto, icon }) {
+function FormInput({ label, type, icon}) {
   return (
-    <div>
-      <label>{texto}</label>
-      <input type="text" clas />
+    <div className="formInput">
+      <label>{label}</label>
+      <input type={type} />
+      {icon}
     </div>
   );
 }

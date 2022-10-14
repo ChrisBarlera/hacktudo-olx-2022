@@ -3,6 +3,12 @@ import "./Cadastro.css";
 import CadastroTop from "../../components/cadastro-top/CadastroTop";
 import AvancarCadastro from "../../components/bt-avancar-cadastro/AvancarCadastro"
 import HeaderCadastro from "../../components/header-cadastro/HeaderCadastro";
+import FormInput from "../../components/form-input/FormInput";
+
+
+import PersonIcon from '@mui/icons-material/Person';
+import EmailIcon from '@mui/icons-material/Email';
+import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 
 
 function Cadastro1() {
@@ -15,6 +21,11 @@ function Cadastro1() {
             titulo="Faça login para anunciar com rapidez"
             desc="Seus dados são criptografados e estão armazenados em um ambiente seguro"
           />
+          <div>
+            <FormInput label="USUÁRIO" type="text" icon={<PersonIcon/>}/>
+            <FormInput label="EMAIL" type="email" icon={<EmailIcon/>}/>
+            <FormInput label="SENHA" type="password" icon={<VisibilityOffIcon/>}/>
+          </div>
           <AvancarCadastro texto="Avançar" para="/cadastro/2"/>
         </div>
         <div className="rightDiv-cadastro">
