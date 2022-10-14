@@ -6,24 +6,32 @@
 }
 
 .anuncioContent {
+    display: grid;
+    grid-template-rows: 1fr 1fr 3fr;
+    
     width: 60%;
-    height: 100%;
+    height: calc(100vh - 50px);
+}
+
+.anuncioContent > div {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .cardContainerDiv {
     width: 40%;
-    height: 90vh;
+    height: 80vh;
 
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* background-color: aqua; */
 }
 
 .apartamentosList {
+    width: 30vw;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .apartamentosList > li {
