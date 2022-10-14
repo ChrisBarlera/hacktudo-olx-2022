@@ -32,7 +32,6 @@ function OLXSelf() {
       <div>
         <img src={logo} alt="OLX Self" />
         <span id="infoIcon"><InfoOutlined/></span>
-        <p id="olx-self-desc">Filtro de anunciantes verificados</p>
       </div>
       <Switch id='switch' onChange={testingSwitch}/>
     </div>

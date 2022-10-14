@@ -10,8 +10,25 @@
     height: auto;
 }
 
-#olx-self-desc {
-    color: white;
-    background-color: #6e0ad6;
+#olx-self > div > span {
+    color: #767676;
+}
+
+#olx-self > div > span:hover::after {
+    position: absolute;
+    top: 21vh;
+    left: 370px;
+    right: 0;
+    bottom: 0;
+    
+    width: 100px;
+    height: 60px;
     padding: 20px;
+
+    content: 'Filtro de anunciantes verificados';
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #6d0ad6;
+    opacity: 1;
 }

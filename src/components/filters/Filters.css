@@ -3,3 +3,8 @@
     background-color: #f5f6f7;
     padding: 20px;
 }
+
+#filtros > h1 {
+    color: #767676;
+    text-align: center;
+}
