@@ -17,6 +17,7 @@ import Cadastro2 from './pages/cadastro-olx-self/Cadastro2';
 import Cadastro3 from './pages/cadastro-olx-self/Cadastro3';
 import Cadastro4 from './pages/cadastro-olx-self/Cadastro4';
 import Searching from './pages/searching/Searching';
+import AnunciosComum from './pages/anuncios/AnuncioComum';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
     // </div>
     <Routes>
       <Route path='/' element={<Searching/>}/>
+      <Route path='/anuncio' element={<AnunciosComum/>}/>
       <Route path='/cadastro/1' element={<Cadastro1/>}/>
       <Route path='/cadastro/2' element={<Cadastro2/>}/>
       <Route path='/cadastro/3' element={<Cadastro3/>}/>

@@ -1,0 +1,34 @@
+.mainAnunciosContainer {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.anuncioContent {
+    width: 60%;
+    height: 100%;
+}
+
+.cardContainerDiv {
+    width: 40%;
+    height: 90vh;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.apartamentosList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.apartamentosList > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

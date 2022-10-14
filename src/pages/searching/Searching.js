@@ -15,7 +15,7 @@ function Searching() {
   return (
     <div className="SearchingMain">
       <Header />
-      <main>
+      <main className="mainContent">
         <Filters />
         <div className="results">
           <FiltrosNav />

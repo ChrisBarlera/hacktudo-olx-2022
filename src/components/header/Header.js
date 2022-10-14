@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <header>
+    <header className="mainHeader">
       <img src="https://assets.zap.com.br/assets/v5.228.1/zap.svg?8dbcae1e48d1b92a07868ba988886986" alt="img" />
       <nav className="header-navbar">
         <li>Comprar</li>

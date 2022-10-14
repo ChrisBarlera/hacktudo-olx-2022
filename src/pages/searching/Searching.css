@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.mainContent {
+  margin-top: 20px;
+}
+
 .results {
   padding: 20px;
 }

@@ -1,0 +1,59 @@
+.anuncianteCard {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 20px;
+    width: 350px;
+    height: 550px;
+    border-radius: 12px;
+    box-shadow: inset 0px 5px 5px #cecece;
+}
+
+.anuncianteCard > p {
+    font-size: 14px;
+}
+.anuncianteCard > div > p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.checkBadge {
+    width: 25px;
+    height: auto;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+.imgAnunciante {
+    border-radius: 5px;
+}
+
+.midDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linhaCinza {
+    width: 250px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #ededed;
+}
+
+.anuncianteCard > div {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonsBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

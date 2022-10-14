@@ -1,3 +1,8 @@
+.mainHeader {
+    z-index: 266;
+    box-shadow: 0px 5px 5px #dbdbdb;
+}
+
 .header-navbar {
     display: flex;
     justify-content: flex-end;

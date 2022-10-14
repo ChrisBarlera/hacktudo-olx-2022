@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -29,6 +35,7 @@ main {
 }
 
 a {
+  color: black;
   text-decoration: none;
 }
 
@@ -50,4 +57,14 @@ button {
 
 .hidden {
   display: none;
+}
+
+.cinzaP {
+  color: #767676;
+  font-family: 'Poppins';
+}
+
+.roxoP {
+  color: #6e0ad6;
+  font-family: 'Poppins';
 }

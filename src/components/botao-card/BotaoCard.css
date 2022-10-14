@@ -1,0 +1,26 @@
+.AnuncianteCardBt {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.OLXSELF {
+    color: white;
+    background-color: #6e0ad6;
+}
+
+.Contato {
+    font-family: 'Poppins';
+    background-color: #ff6913;
+    color: white;
+}
+
+.Whatsapp {
+    font-family: 'Poppins';
+    color: #ff6913;
+}
