@@ -1,9 +1,16 @@
 import "./Anuncio.css"
 
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import checkedIcon from "../../../assets/checked.png";
+import green from "../../../assets/checked.png";
+import blue from "../../../assets/checkedBlue.png";
 
-function Anuncio({preco, descricao, endereco}) {
+function Anuncio({preco, descricao, endereco, isBlue}) {
+  var checkedIcon = green
+
+  if (isBlue) {
+    checkedIcon = blue
+  }
+
   return (
     <div id="anuncioContainer">
       <img src="https://picsum.photos/200" alt="Foto do Anúncio"/>

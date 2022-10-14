@@ -6,8 +6,7 @@ import AnuncianteCard from "../../components/anunciante-card/AnuncianteCard";
 
 import LayersIcon from '@mui/icons-material/Layers';
 
-
-function AnunciosComum() {
+function AnuncioCreci() {
   return (
     <div>
       <HeaderCadastro/>
@@ -43,11 +42,11 @@ function AnunciosComum() {
           </ul>
         </div>
         <div className="cardContainerDiv">
-          <AnuncianteCard isBlue={false}/>
+          <AnuncianteCard isBlue={true}/>
         </div>
       </div>
     </div>
   );
 }
 
-export default AnunciosComum;
+export default AnuncioCreci;

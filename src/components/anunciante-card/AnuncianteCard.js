@@ -6,9 +6,11 @@ import BotaoCard from "../botao-card/BotaoCard";
 
 function AnuncianteCard({isBlue}) {
   var checked = green
+  var tipo_user = "Usuário OLX"
 
   if (isBlue) {
     checked = blue
+    tipo_user = "CRECI: 2XXXX-F-SC"
   }
 
   return (
@@ -24,7 +26,7 @@ function AnuncianteCard({isBlue}) {
       </div>
       <div className="midDiv">
         <BotaoCard texto="OLXSELF"/>
-        <p className="cinzaP">Usuário OLX</p>
+        <p className="cinzaP">{tipo_user}</p>
         <div className="linhaCinza"></div>
       </div>
       <div className="buttonsBottom">
