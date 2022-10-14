@@ -33,7 +33,7 @@ function OLXSelf() {
         <img src={logo} alt="OLX Self" />
         <span id="infoIcon"><InfoOutlined/></span>
       </div>
-      <Switch id='switch' onChange={testingSwitch}/>
+      <Switch id='switch' onChange={testingSwitch} color="secondary"/>
     </div>
   );
 }
