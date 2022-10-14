@@ -5,11 +5,11 @@
 }
 
 .docsComponent {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 50px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 12px;
     box-shadow: inset 0px 5px 5px #cecece;
 
@@ -19,10 +19,9 @@
 }
 
 .docsComponent > p {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .someclass {
-    width: 48px;
-    height: 48px;
+    margin-top: 30px;
 }
