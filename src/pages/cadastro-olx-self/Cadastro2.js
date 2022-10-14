@@ -1,11 +1,12 @@
-import "./Cadastro2.css";
-import logo from '../../../assets/OLXSelf_logo.png';
+import "./Cadastro.css";
+import logo from '../../assets/OLXSelf_logo.png';
 
 
-import HeaderCadastro from "../../../components/header-cadastro/HeaderCadastro";
-import CadastroTop from "../../../components/cadastro-top/CadastroTop";
-import AvancarCadastro from "../../../components/bt-avancar-cadastro/AvancarCadastro"
-import DocsComponent from "../../../components/docs-component/DocsComponent";
+import HeaderCadastro from "../../components/header-cadastro/HeaderCadastro";
+import CadastroTop from "../../components/cadastro-top/CadastroTop";
+import AvancarCadastro from "../../components/bt-avancar-cadastro/AvancarCadastro";
+import DocsComponent from "../../components/docs-component/DocsComponent"
+
 
 
 function Cadastro1() {

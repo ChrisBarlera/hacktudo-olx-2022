@@ -1,8 +1,8 @@
-import "./Cadastro1.css";
+import "./Cadastro.css";
 
-import CadastroTop from "../../../components/cadastro-top/CadastroTop";
-import AvancarCadastro from "../../../components/bt-avancar-cadastro/AvancarCadastro"
-import HeaderCadastro from "../../../components/header-cadastro/HeaderCadastro";
+import CadastroTop from "../../components/cadastro-top/CadastroTop";
+import AvancarCadastro from "../../components/bt-avancar-cadastro/AvancarCadastro"
+import HeaderCadastro from "../../components/header-cadastro/HeaderCadastro";
 
 
 function Cadastro1() {

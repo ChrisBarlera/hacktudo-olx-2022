@@ -15,6 +15,13 @@
     background-color: #F4F3FF;
 }
 
+.docsContiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 #rightImg {
     width: 30vw;
     height: auto;

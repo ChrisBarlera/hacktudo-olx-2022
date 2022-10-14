@@ -1,10 +1,10 @@
-import logo from "../../../assets/OLXSelf_logo.png";
-import "./Cadastro4.css";
-import checked from "../../../assets/checked.png";
+import logo from "../../assets/OLXSelf_logo.png";
+import "./Cadastro.css";
+import checked from "../../assets/checked.png";
 
-import HeaderCadastro from "../../../components/header-cadastro/HeaderCadastro";
-import CadastroTop from "../../../components/cadastro-top/CadastroTop";
-import AvancarCadastro from "../../../components/bt-avancar-cadastro/AvancarCadastro";
+import HeaderCadastro from "../../components/header-cadastro/HeaderCadastro";
+import CadastroTop from "../../components/cadastro-top/CadastroTop";
+import AvancarCadastro from "../../components/bt-avancar-cadastro/AvancarCadastro";
 
 function Cadastro4() {
   return (
