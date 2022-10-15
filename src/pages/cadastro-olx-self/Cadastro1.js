@@ -20,12 +20,16 @@ function Cadastro1() {
         <div className="cadastroThings">
           <CadastroTop
             titulo="Faça login para anunciar com rapidez"
-            desc="Seus dados são criptografados e estão armazenados em um ambiente seguro"
-          />
+            desc="Seus dados são criptografados e estão armazenados em um ambiente seguro"/>
+          <br/>
+          <br/>
           <div>
-            <FormInput label="USUÁRIO" type="text" icon={<PersonIcon/>}/>
-            <FormInput label="EMAIL" type="email" icon={<EmailIcon/>}/>
-            <FormInput label="SENHA" type="password" icon={<VisibilityOffIcon/>}/>
+            <FormInput label="USUÁRIO" type="text"/>
+            <div className="icon 1">{<PersonIcon/>}</div>
+            <FormInput label="EMAIL" type="email"/>
+            <div className="icon 2">{<EmailIcon/>}</div>
+            <FormInput label="SENHA" type="password"/>
+            <div className="icon 3">{<VisibilityOffIcon/>}</div>
           </div>
           <br></br>
           <AvancarCadastro texto="Cadastrar" para="/cadastro/2"/>

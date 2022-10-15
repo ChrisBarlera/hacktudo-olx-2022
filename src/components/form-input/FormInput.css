@@ -5,7 +5,7 @@
 
 .formInput > label {
     font-family: 'Poppins';
-    font-weight: 700;
+    font-weight: 700; 
 }
 
 .formInput > input{
@@ -17,4 +17,10 @@
     width: 30vw;
     height: 28px;
     font-size: 18px;
+}
+
+.icon {
+    position: relative;
+    left: 500px;
+    bottom: 35px;
 }
