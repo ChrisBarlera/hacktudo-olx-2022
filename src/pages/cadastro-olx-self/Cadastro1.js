@@ -23,7 +23,7 @@ function Cadastro1() {
             desc="Seus dados são criptografados e estão armazenados em um ambiente seguro"
           />
           <div>
-            <FormInput class="inputIcon 1" label="USUÁRIO" type="text" icon={<PersonIcon/>}/>
+            <FormInput label="USUÁRIO" type="text" icon={<PersonIcon/>}/>
             <FormInput label="EMAIL" type="email" icon={<EmailIcon/>}/>
             <FormInput label="SENHA" type="password" icon={<VisibilityOffIcon/>}/>
           </div>
