@@ -41,3 +41,13 @@
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
+
+.caixaTexto {
+    width: 400px;
+    left: 35px;
+    top: 35px;
+    display: inline-block;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}

@@ -9,6 +9,7 @@ import FormInput from "../../components/form-input/FormInput";
 import PersonIcon from '@mui/icons-material/Person';
 import EmailIcon from '@mui/icons-material/Email';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
+import { ClassNames } from "@emotion/react";
 
 
 function Cadastro1() {
@@ -22,11 +23,13 @@ function Cadastro1() {
             desc="Seus dados são criptografados e estão armazenados em um ambiente seguro"
           />
           <div>
-            <FormInput label="USUÁRIO" type="text" icon={<PersonIcon/>}/>
+            <FormInput class="inputIcon 1" label="USUÁRIO" type="text" icon={<PersonIcon/>}/>
             <FormInput label="EMAIL" type="email" icon={<EmailIcon/>}/>
             <FormInput label="SENHA" type="password" icon={<VisibilityOffIcon/>}/>
           </div>
-          <AvancarCadastro texto="Avançar" para="/cadastro/2"/>
+          <br></br>
+          <AvancarCadastro texto="Cadastrar" para="/cadastro/2"/>
+          <p className="caixaTexto 1">Ao se cadastrar você concorda com nossos Termos de Condições de Uso e Políticas de Privacidade.</p>
         </div>
         <div className="rightDiv-cadastro">
           <img id="rightImg" src="https://c.smartrecruiters.com/sr-careersite-image-prod-dc5/5f8ece230e547939dcebadda/7f1d816b-019e-4deb-a51e-03e93c0ea90d?r=s3-eu-central-1" alt="" />

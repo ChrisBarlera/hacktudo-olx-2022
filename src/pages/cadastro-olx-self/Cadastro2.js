@@ -8,7 +8,6 @@ import AvancarCadastro from "../../components/bt-avancar-cadastro/AvancarCadastr
 import DocsComponent from "../../components/docs-component/DocsComponent"
 
 
-
 function Cadastro1() {
   return (
     <div>
@@ -26,6 +25,7 @@ function Cadastro1() {
           </div>
           <br/>
           <AvancarCadastro texto="Enviar" para="/cadastro/3"/>
+          <p className="caixaTexto 2">Ao se cadastrar você concorda com nossos Termos de Condições de Uso e Políticas de Privacidade.</p> 
         </div>
         <div className="rightDiv-cadastro">
           <img id="rightImg" src="https://c.smartrecruiters.com/sr-careersite-image-prod-dc5/5f8ece230e547939dcebadda/7f1d816b-019e-4deb-a51e-03e93c0ea90d?r=s3-eu-central-1" alt="" />

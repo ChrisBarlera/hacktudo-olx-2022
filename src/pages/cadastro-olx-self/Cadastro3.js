@@ -20,6 +20,7 @@ function Cadastro3() {
           <DocsComponent texto="Foto segurando o documento" />
           <br/>
           <AvancarCadastro texto="Enviar" para="/cadastro/4" />
+          <p className="caixaTexto 3">Ao se cadastrar você concorda com nossos Termos de Condições de Uso e Políticas de Privacidade.</p> 
         </div>
         <div className="rightDiv-cadastro">
           <img
