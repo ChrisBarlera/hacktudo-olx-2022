@@ -9,7 +9,6 @@ import FormInput from "../../components/form-input/FormInput";
 import PersonIcon from '@mui/icons-material/Person';
 import EmailIcon from '@mui/icons-material/Email';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
-import { ClassNames } from "@emotion/react";
 
 
 function Cadastro1() {
@@ -24,12 +23,9 @@ function Cadastro1() {
           <br/>
           <br/>
           <div>
-            <FormInput label="USUÁRIO" type="text"/>
-            <div className="icon 1">{<PersonIcon/>}</div>
-            <FormInput label="EMAIL" type="email"/>
-            <div className="icon 2">{<EmailIcon/>}</div>
-            <FormInput label="SENHA" type="password"/>
-            <div className="icon 3">{<VisibilityOffIcon/>}</div>
+            <FormInput label="USUÁRIO" type="text" icon={<PersonIcon/>}/>
+            <FormInput label="EMAIL" type="email" icon={<EmailIcon/>}/>
+            <FormInput label="SENHA" type="password" icon={<VisibilityOffIcon/>}/>
           </div>
           <br></br>
           <AvancarCadastro texto="Cadastrar" para="/cadastro/2"/>

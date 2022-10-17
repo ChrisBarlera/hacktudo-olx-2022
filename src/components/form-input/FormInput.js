@@ -4,8 +4,10 @@ function FormInput({ label, type, icon}) {
   return (
     <div className="formInput">
       <label>{label}</label>
-      <input type={type} />
-      {icon}
+      <div>
+        <input type={type} />
+        {icon}
+      </div>
     </div>
   );
 }
